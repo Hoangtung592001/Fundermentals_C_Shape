@@ -1,0 +1,15 @@
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3/bin/Debug/net6.0/CShapeAssignmentDay3
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3/bin/Debug/net6.0/CShapeAssignmentDay3.deps.json
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3/bin/Debug/net6.0/CShapeAssignmentDay3.runtimeconfig.json
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3/bin/Debug/net6.0/CShapeAssignmentDay3.dll
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3/bin/Debug/net6.0/CShapeAssignmentDay3.pdb
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3/obj/Debug/net6.0/CShapeAssignmentDay3.csproj.AssemblyReference.cache
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3/obj/Debug/net6.0/CShapeAssignmentDay3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3/obj/Debug/net6.0/CShapeAssignmentDay3.AssemblyInfoInputs.cache
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3/obj/Debug/net6.0/CShapeAssignmentDay3.AssemblyInfo.cs
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3/obj/Debug/net6.0/CShapeAssignmentDay3.csproj.CoreCompileInputs.cache
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3/obj/Debug/net6.0/CShapeAssignmentDay3.dll
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3/obj/Debug/net6.0/refint/CShapeAssignmentDay3.dll
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3/obj/Debug/net6.0/CShapeAssignmentDay3.pdb
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3/obj/Debug/net6.0/CShapeAssignmentDay3.genruntimeconfig.cache
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3/obj/Debug/net6.0/ref/CShapeAssignmentDay3.dll
