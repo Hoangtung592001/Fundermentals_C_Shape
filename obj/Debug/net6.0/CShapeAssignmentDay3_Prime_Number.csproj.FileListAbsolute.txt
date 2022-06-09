@@ -1,0 +1,15 @@
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3_Prime_Number/bin/Debug/net6.0/CShapeAssignmentDay3_Prime_Number
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3_Prime_Number/bin/Debug/net6.0/CShapeAssignmentDay3_Prime_Number.deps.json
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3_Prime_Number/bin/Debug/net6.0/CShapeAssignmentDay3_Prime_Number.runtimeconfig.json
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3_Prime_Number/bin/Debug/net6.0/CShapeAssignmentDay3_Prime_Number.dll
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3_Prime_Number/bin/Debug/net6.0/CShapeAssignmentDay3_Prime_Number.pdb
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3_Prime_Number/obj/Debug/net6.0/CShapeAssignmentDay3_Prime_Number.csproj.AssemblyReference.cache
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3_Prime_Number/obj/Debug/net6.0/CShapeAssignmentDay3_Prime_Number.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3_Prime_Number/obj/Debug/net6.0/CShapeAssignmentDay3_Prime_Number.AssemblyInfoInputs.cache
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3_Prime_Number/obj/Debug/net6.0/CShapeAssignmentDay3_Prime_Number.AssemblyInfo.cs
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3_Prime_Number/obj/Debug/net6.0/CShapeAssignmentDay3_Prime_Number.csproj.CoreCompileInputs.cache
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3_Prime_Number/obj/Debug/net6.0/CShapeAssignmentDay3_Prime_Number.dll
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3_Prime_Number/obj/Debug/net6.0/refint/CShapeAssignmentDay3_Prime_Number.dll
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3_Prime_Number/obj/Debug/net6.0/CShapeAssignmentDay3_Prime_Number.pdb
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3_Prime_Number/obj/Debug/net6.0/CShapeAssignmentDay3_Prime_Number.genruntimeconfig.cache
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssignmentDay3_Prime_Number/obj/Debug/net6.0/ref/CShapeAssignmentDay3_Prime_Number.dll
