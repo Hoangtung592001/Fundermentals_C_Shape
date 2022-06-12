@@ -1,0 +1,21 @@
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssigntmentDay4 - Middleware/bin/Debug/net6.0/appsettings.Development.json
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssigntmentDay4 - Middleware/bin/Debug/net6.0/appsettings.json
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssigntmentDay4 - Middleware/bin/Debug/net6.0/CShapeAssigntmentDay4 - Middleware
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssigntmentDay4 - Middleware/bin/Debug/net6.0/CShapeAssigntmentDay4 - Middleware.deps.json
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssigntmentDay4 - Middleware/bin/Debug/net6.0/CShapeAssigntmentDay4 - Middleware.runtimeconfig.json
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssigntmentDay4 - Middleware/bin/Debug/net6.0/CShapeAssigntmentDay4 - Middleware.dll
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssigntmentDay4 - Middleware/bin/Debug/net6.0/CShapeAssigntmentDay4 - Middleware.pdb
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssigntmentDay4 - Middleware/obj/Debug/net6.0/CShapeAssigntmentDay4 - Middleware.csproj.AssemblyReference.cache
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssigntmentDay4 - Middleware/obj/Debug/net6.0/CShapeAssigntmentDay4 - Middleware.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssigntmentDay4 - Middleware/obj/Debug/net6.0/CShapeAssigntmentDay4 - Middleware.AssemblyInfoInputs.cache
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssigntmentDay4 - Middleware/obj/Debug/net6.0/CShapeAssigntmentDay4 - Middleware.AssemblyInfo.cs
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssigntmentDay4 - Middleware/obj/Debug/net6.0/CShapeAssigntmentDay4 - Middleware.csproj.CoreCompileInputs.cache
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssigntmentDay4 - Middleware/obj/Debug/net6.0/CShapeAssigntmentDay4 - Middleware.MvcApplicationPartsAssemblyInfo.cache
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssigntmentDay4 - Middleware/obj/Debug/net6.0/staticwebassets.build.json
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssigntmentDay4 - Middleware/obj/Debug/net6.0/staticwebassets.development.json
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssigntmentDay4 - Middleware/obj/Debug/net6.0/scopedcss/bundle/CShapeAssigntmentDay4 - Middleware.styles.css
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssigntmentDay4 - Middleware/obj/Debug/net6.0/CShapeAssigntmentDay4 - Middleware.dll
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssigntmentDay4 - Middleware/obj/Debug/net6.0/refint/CShapeAssigntmentDay4 - Middleware.dll
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssigntmentDay4 - Middleware/obj/Debug/net6.0/CShapeAssigntmentDay4 - Middleware.pdb
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssigntmentDay4 - Middleware/obj/Debug/net6.0/CShapeAssigntmentDay4 - Middleware.genruntimeconfig.cache
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/CShapeAssigntmentDay4 - Middleware/obj/Debug/net6.0/ref/CShapeAssigntmentDay4 - Middleware.dll

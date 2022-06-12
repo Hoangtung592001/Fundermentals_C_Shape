@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CShapeAssigntmentDay4 - Middleware/1.0.0": {
+        "runtime": {
+          "CShapeAssigntmentDay4 - Middleware.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CShapeAssigntmentDay4 - Middleware/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
