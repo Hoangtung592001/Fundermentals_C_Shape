@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9Dfm1VT0mVHayRbeYH8E3bsMU7DMv7nG1HaVg5Gv2L/2gDDcxlKR7r1L5SPbZh/QC3KWcTkBLu28rRbIKnNJyg==",
+  "success": true,
+  "projectFilePath": "/Users/nguyenhoangtung/Desktop/Studying/Net Core/First_Project/First_Project.csproj",
+  "expectedPackageFiles": [
+    "/Users/nguyenhoangtung/.nuget/packages/csvhelper/27.2.1/csvhelper.27.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
