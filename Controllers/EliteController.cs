@@ -1,3 +1,4 @@
+using Models;
 using Services;
 using Microsoft.AspNetCore.Mvc;
 namespace First_Project.Controllers;
@@ -27,7 +28,7 @@ public class EliteController : Controller
     [Route("get-all")]
     public IActionResult GetAll()
     {
-        return new JsonResult(_personService.GetAll());
+        return View(_personService.GetAll());
     }
 
     [Route("get-oldest")]
@@ -82,4 +83,40 @@ public class EliteController : Controller
         var memoryStream = new MemoryStream(result);
         return new FileStreamResult(memoryStream, "text/csv") { FileDownloadName = "members.csv" };
     }
+
+    [HttpGet("create-new-member")]
+    public IActionResult CreateNewMember()
+    {
+        return View();
+    }
+
+    [HttpPost("create-new-member")]
+    public IActionResult CreateNewMember(Person person)
+    {
+        Console.WriteLine(person);
+        _personService.CreateNewPerson(person);
+        return RedirectToAction("GetAll");
+    }
+
+    [HttpGet("edit-info-member")]
+    public IActionResult EditInfoMember(int id)
+    {
+        Person current = _personService.GetOne(id);
+        return View(current);
+    }
+
+    [HttpPost("edit-info-member")]
+    public IActionResult EditInfoMember(Person person)
+    {
+        _personService.EditInfoMember(person);
+        return RedirectToAction("GetAll");
+    }
+
+    [HttpGet("delete-member")]
+    public IActionResult DeleteMember(int id)
+    {
+        _personService.DeleteInfoMember(id);
+        return RedirectToAction("GetAll");
+    }
+
 }

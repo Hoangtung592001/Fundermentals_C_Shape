@@ -1,0 +1,45 @@
+@model List<Person>;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <a class="btn btn-primary" asp-action="CreateNewMember">Create New Member</a>
+    <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Gender</th>
+      <th scope="col">Date of Birth</th>
+      <th scope="col">Phone Number</th>
+      <th scope="col">Birth Place</th>
+      <th scope="col">Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (var i = 0; i < Model.Count; i++)
+    {
+        var person = Model[i];
+        <tr>
+            <th scope="row">@(person.Id)</th>
+            <td>@person.FirstName</td>
+            <td>@person.LastName</td>
+            <td>@person.Gender</td>
+            <td>@person.DateOfBirth.ToString()</td>
+            <td>@person.PhoneNumber</td>
+            <td>@person.BirthPlace</td>
+            <td>@person.Age</td>
+            <td>
+                <a class="btn btn-primary" asp-action="EditInfoMember" asp-route-id="@(person.Id)">Edit</a>
+                <a class="btn btn-primary" asp-action="DeleteMember" asp-route-id="@(person.Id)">Delete</a>
+            </td>
+        </tr>
+    }
+  </tbody>
+</table>
+</div>

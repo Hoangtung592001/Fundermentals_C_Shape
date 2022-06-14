@@ -1,0 +1,43 @@
+@model Person;
+
+@{
+    ViewData["Title"] = "Edit Info Member";
+    var DateOfBirth = @Model.DateOfBirth.ToString("yyyy/MM/dd");
+}
+
+<div class="text-center">
+    <h1 class="display-4">Edit Info Member</h1>
+    <button type="button" class="btn btn-primary">Create New Member</button>
+    <form asp-action="EditInfoMember">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Id</label>
+    <input type="number" class="form-control" placeholder="Enter Id" name="Id" value="@Model.Id">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">First Name</label>
+    <input type="text" class="form-control" placeholder="Enter First Name" name="FirstName" value="@Model.FirstName">
+  </div>
+    <div class="form-group">
+    <label for="exampleInputPassword1">Last Name</label>
+    <input type="text" class="form-control" placeholder="Enter Last Name" name="LastName" value="@Model.LastName">
+  </div>
+    <div class="form-group">
+    <label for="exampleInputPassword1">Gender</label>
+    <input type="text" class="form-control" placeholder="Enter Gender" name="Gender" value="@Model.Gender">
+  </div>
+    <div class="form-group">
+    <label>DateOfBirth</label>
+    <input type="date" class="form-control" name="DateOfBirth" asp-for="DateOfBirth">
+  </div>
+      <div class="form-group">
+    <label for="exampleInputPassword1">Phone Number</label>
+    <input type="text" class="form-control" placeholder="Enter Phone Number" name="PhoneNumber" value="@Model.PhoneNumber">
+  </div>
+      <div class="form-group">
+    <label for="exampleInputPassword1">Birth Place</label>
+    <input type="text" class="form-control" placeholder="Enter Birth Place" name="BirthPlace" value="@Model.BirthPlace">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>

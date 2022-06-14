@@ -15,6 +15,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/nguyenhoangtung/Desktop/Studying/Net Core/First_Project
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/nguyenhoangtung/Desktop/Studying/Net Core/First_Project/Views/Elite/CreateNewMember.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRWxpdGUvQ3JlYXRlTmV3TWVtYmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nguyenhoangtung/Desktop/Studying/Net Core/First_Project/Views/Elite/EditInfoMember.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRWxpdGUvRWRpdEluZm9NZW1iZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/nguyenhoangtung/Desktop/Studying/Net Core/First_Project/Views/Elite/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRWxpdGUvR2V0QWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/nguyenhoangtung/Desktop/Studying/Net Core/First_Project/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

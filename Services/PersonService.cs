@@ -2,6 +2,7 @@ using System;
 using Models;
 using CsvHelper;
 using System.Globalization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Services
 {
@@ -10,6 +11,7 @@ namespace Services
         private static List<Person> _members = new List<Person>
         {
             new Person {
+                Id = 1,
                 FirstName = "Tung",
                 LastName = "Nguyen Hoang",
                 Gender = "Male",
@@ -17,6 +19,7 @@ namespace Services
                 BirthPlace = "Ha Noi"
             },
             new Person {
+                Id = 2,
                 FirstName = "Vu",
                 LastName = "Nguyen Hoang",
                 Gender = "Male",
@@ -24,12 +27,14 @@ namespace Services
                 // BirthPlace = "Ha Noi"
             },
             new Person {
+                Id = 3,
                 FirstName = "Nhat",
                 LastName = "Nguyen Hoang",
                 Gender = "Male",
                 DateOfBirth = new DateTime(1999, 9, 5)
             },
             new Person {
+                Id = 4,
                 FirstName = "Long",
                 LastName = "Nguyen Hoang",
                 Gender = "Female",
@@ -90,5 +95,34 @@ namespace Services
             }
         }
 
+        public void CreateNewPerson(Person person)
+        {
+            _members.Add(person);
+        }
+
+        public void EditInfoMember([Bind(new[] { "Id,FirstName,LastName,Gender,DateOfBirth,PhoneNumber,BirthPlace" })] Person person)
+        {
+            for (int i = 0; i < _members.Count; i++)
+            {
+                if (_members[i].Id == person.Id)
+                {
+                    _members[i] = person;
+                }
+            }
+            // Person target = _members.Where(member => member.Id == person.Id).FirstOrDefault();
+            // target = person;
+        }
+
+        public void DeleteInfoMember(int id)
+        {
+            Person target = _members.Where(member => member.Id == id).FirstOrDefault();
+            _members.Remove(target);
+        }
+
+        public Person GetOne(int id)
+        {
+            Person target = _members.Where(member => member.Id == id).FirstOrDefault();
+            return target;
+        }
     }
 }

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc;
 using Models;
 
 namespace Services
@@ -20,6 +21,14 @@ namespace Services
 
         public List<Person> GetPeopleByBirthYearLessThan(int year);
 
+        public void CreateNewPerson(Person person);
+
+        public void EditInfoMember([Bind("FirstName,LastName,Gender,DateOfBirth,PhoneNumber,BirthPlace")] Person person);
+
+        public void DeleteInfoMember(int id);
+
         public byte[] GetDataStream();
+
+        public Person GetOne(int id);
     }
 }
