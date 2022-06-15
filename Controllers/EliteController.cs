@@ -119,4 +119,18 @@ public class EliteController : Controller
         return RedirectToAction("GetAll");
     }
 
+    [HttpGet("get-details")]
+    public IActionResult GetDetails(int id)
+    {
+
+        Person current = _personService.GetOne(id);
+        TempData["DeletedMember"] = current.FullName;
+        return View(current);
+    }
+
+    [HttpGet("confirm-delete")]
+    public IActionResult ConfirmDelete()
+    {
+        return View();
+    }
 }

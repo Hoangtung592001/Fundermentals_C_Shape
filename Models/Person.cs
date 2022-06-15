@@ -21,5 +21,13 @@ namespace Models
         public int Age { get { return DateTime.Now.Year - this.DateOfBirth.Year; } }
 
         public bool IsGraduated { get; set; }
+
+        public string FullName
+        {
+            get
+            {
+                return this.FirstName + " " + this.LastName;
+            }
+        }
     }
 }

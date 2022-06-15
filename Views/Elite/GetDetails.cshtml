@@ -1,0 +1,73 @@
+@model Person;
+
+@{
+    ViewData["Title"] = "Edit Info Member";
+    var DateOfBirth = @Model.DateOfBirth.ToString("yyyy/MM/dd");
+}
+
+<div class="text-center">
+    <h1 class="display-4">Details Member</h1>
+    <div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Id</label>
+    <input type="number" class="form-control" placeholder="Enter Id" name="Id" value="@Model.Id" readonly>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">First Name</label>
+    <input type="text" class="form-control" placeholder="Enter First Name" name="FirstName" value="@Model.FirstName" readonly>
+  </div>
+    <div class="form-group">
+    <label for="exampleInputPassword1">Last Name</label>
+    <input type="text" class="form-control" placeholder="Enter Last Name" name="LastName" value="@Model.LastName" readonly>
+  </div>
+    <div class="form-group">
+    <label for="exampleInputPassword1">Gender</label>
+    <input type="text" class="form-control" placeholder="Enter Gender" name="Gender" value="@Model.Gender" readonly>
+  </div>
+    <div class="form-group">
+    <label>DateOfBirth</label>
+    <input type="date" class="form-control" name="DateOfBirth" asp-for="DateOfBirth" readonly>
+  </div>
+      <div class="form-group">
+    <label for="exampleInputPassword1">Phone Number</label>
+    <input type="text" class="form-control" placeholder="Enter Phone Number" name="PhoneNumber" value="@Model.PhoneNumber" readonly> 
+  </div>
+      <div class="form-group">
+    <label for="exampleInputPassword1">Birth Place</label>
+    <input type="text" class="form-control" placeholder="Enter Birth Place" name="BirthPlace" value="@Model.BirthPlace" readonly>
+  </div>
+
+  <button type="button" class="btn btn-danger btnDelete" data-bs-toggle="modal" data-bs-target="#exampleModal" value="@Model.Id">
+    Delete
+  </button>
+</div>
+</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cảnh báo</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Xác nhận xóa người dùng này
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <a type="button" class="btn btn-danger btnDeleteSubmit" asp-action="ConfirmDelete">Delete</a>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  const deleteButtons = document.querySelectorAll(".btnDelete");
+  const deleteButtonSubmit = document.querySelector(".btnDeleteSubmit");
+  deleteButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const personId = button.value;
+      deleteButtonSubmit.addEventListener('click', () => {
+        fetch(`https://localhost:7076/elite/delete-member/?id=${personId}`);
+      })
+    });
+  })
+</script>
