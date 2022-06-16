@@ -1,0 +1,27 @@
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/bin/Debug/net6.0/appsettings.Development.json
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/bin/Debug/net6.0/appsettings.json
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/bin/Debug/net6.0/Web API
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/bin/Debug/net6.0/Web API.deps.json
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/bin/Debug/net6.0/Web API.runtimeconfig.json
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/bin/Debug/net6.0/Web API.dll
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/bin/Debug/net6.0/Web API.pdb
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/obj/Debug/net6.0/Web API.csproj.AssemblyReference.cache
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/obj/Debug/net6.0/Web API.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/obj/Debug/net6.0/Web API.AssemblyInfoInputs.cache
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/obj/Debug/net6.0/Web API.AssemblyInfo.cs
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/obj/Debug/net6.0/Web API.csproj.CoreCompileInputs.cache
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/obj/Debug/net6.0/Web API.MvcApplicationPartsAssemblyInfo.cs
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/obj/Debug/net6.0/Web API.MvcApplicationPartsAssemblyInfo.cache
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/obj/Debug/net6.0/staticwebassets.build.json
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/obj/Debug/net6.0/staticwebassets.development.json
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/obj/Debug/net6.0/scopedcss/bundle/Web API.styles.css
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/obj/Debug/net6.0/Web API.csproj.CopyComplete
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/obj/Debug/net6.0/Web API.dll
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/obj/Debug/net6.0/refint/Web API.dll
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/obj/Debug/net6.0/Web API.pdb
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/obj/Debug/net6.0/Web API.genruntimeconfig.cache
+/Users/nguyenhoangtung/Desktop/Studying/Net Core/Web API/obj/Debug/net6.0/ref/Web API.dll
