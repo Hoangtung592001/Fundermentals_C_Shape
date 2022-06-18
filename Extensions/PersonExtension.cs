@@ -11,14 +11,5 @@ namespace WebAPI.Extensions
         {
             return new Person(person.Id.HasValue ? (Guid)person.Id : Guid.NewGuid(), person.FirstName, person.LastName, person.DateOfBirth, person.Gender, person.BirthPlace);
         }
-
-        // public static PersonDTO EntityToDTO(this Person person)
-        // {
-        //     return new PersonDTO
-        //     {
-
-        //     }
-        // }
-
     }
 }
